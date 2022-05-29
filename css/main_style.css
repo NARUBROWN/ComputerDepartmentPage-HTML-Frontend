@@ -419,11 +419,17 @@ a {
         text-align: center;
         padding: 20px;
         margin: 10px 10px 10px 10px;
+        transition : all 0.5s ease-in-out .1s;
+    }
+
+    .intro > aside:hover {
+        padding: 25px;
     }
 
     .intro > aside > h4 {
         text-align: left;
-        margin: 0 0 15px 10px
+        font-size: 13pt;
+        margin: 0 0 25px 10px;
     }
 
     .underContent {
@@ -434,7 +440,7 @@ a {
 
     .titleArea {
         display: inline-block;
-        width: 65%;
+        width: 73%;
         text-align: left;
     }
 
@@ -451,9 +457,13 @@ a {
         padding: 0 0 10px 0;
     }
 
+    .title-ellipsis > a:hover {
+        text-decoration: underline;
+    }
+
     .dateArea {
         display: inline-block;
-        width: 25%;
+        width: 15%;
     }
 
     footer {
@@ -585,11 +595,18 @@ a {
         text-align: center;
         padding: 20px;
         margin: 10px 10px 10px 10px;
+        transition : all 0.5s ease-in-out .1s;
     }
+
+    .intro > aside:hover {
+        padding: 25px;
+    }
+
 
     .intro > aside > h4 {
         text-align: left;
-        margin: 0 0 15px 10px
+        font-size: 15pt;
+        margin: 10px 0 20px 10px
     }
 
     .underContent {
@@ -603,7 +620,13 @@ a {
         width: 70%;
     }
 
-    .title-ellipsis{
+    th {
+        padding: 5px;
+        font-weight: normal;
+        transition : all 0.3s .1s;
+    }
+
+    .title-ellipsis {
         font-size: 15pt;
         width: 290px;
         display: block;
@@ -612,16 +635,16 @@ a {
         text-overflow: ellipsis;
     }
 
+    .title-ellipsis:hover {
+        background: #F0F0F0;
+        border-radius: 8px;
+    }
+
     .dateArea {
         font-size: 15pt;
         display: inline-block;
         width: 23%;
         text-align: center;
-    }
-
-    th {
-        font-weight: normal;
-        padding: 0 0 10px 0;
     }
 
     footer {
@@ -651,9 +674,9 @@ a {
 
     footer > aside > div {
         float: right;
-        width: 200px;
+        width: 40%;
         color: white;
-        margin: 0 0 0 30px;
+        margin: 0 0 0 20px;
     }
 
     .left {
