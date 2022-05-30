@@ -385,11 +385,9 @@ a {
         width: 100%;
         height: 400px;
         background: bisque;
-        z-index: 0;
     }
 
     .middleNav {
-        z-index: 1;
         margin: -50px auto;
         height: 100px;
         width: 80%;
@@ -556,24 +554,6 @@ a {
         margin: 0 auto;
     }
 
-    .banner {
-        float: initial;
-        width: 100%;
-        height: 400px;
-        background: bisque;
-        z-index: 0;
-    }
-
-    .middleNav {
-        z-index: 1;
-        margin: -50px auto;
-        height: 100px;
-        width: 50%;
-        background: #FFFFFF;
-        border-radius: 10px;
-        box-shadow: 3px 3px 15px #E0E0E0;
-    }
-
     .intro {
         width: 80%;
         padding: 40px 40px 40px 40px;
@@ -590,22 +570,21 @@ a {
 
     .intro > aside {
         display: inline-block;
-        width: 40%;
+        width: 35%;
         background: white;
         text-align: center;
         padding: 20px;
-        margin: 10px 10px 10px 10px;
-        transition : all 0.5s ease-in-out .1s;
+        margin: 40px 10px 10px 10px;
+        transition : all 0.4s ease-in-out .1s;
     }
 
     .intro > aside:hover {
         padding: 25px;
     }
 
-
     .intro > aside > h4 {
         text-align: left;
-        font-size: 15pt;
+        font-size: 13pt;
         margin: 10px 0 20px 10px
     }
 
@@ -617,18 +596,18 @@ a {
     .titleArea {
         display: inline-block;
         text-align: left;
-        width: 70%;
+        width: 74%;
     }
 
     th {
-        padding: 5px;
+        padding: 8px;
         font-weight: normal;
         transition : all 0.3s .1s;
     }
 
     .title-ellipsis {
-        font-size: 15pt;
-        width: 290px;
+        font-size: 13pt;
+        width: 280px;
         display: block;
         white-space: nowrap;
         overflow: hidden;
@@ -641,10 +620,14 @@ a {
     }
 
     .dateArea {
-        font-size: 15pt;
+        font-size: 13pt;
         display: inline-block;
-        width: 23%;
+        width: 21%;
         text-align: center;
+    }
+
+    .dateArea > table > tbody > tr > th{
+        float: right;
     }
 
     footer {
