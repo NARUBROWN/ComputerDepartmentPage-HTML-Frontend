@@ -5,6 +5,7 @@
     position: absolute;
 }
 
+/*네비게이션 1번째 a*/
 .dropNavBackground1 {
     width: 200px;
     height: 300px;
@@ -14,6 +15,7 @@
     z-index: 10000;
 }
 
+/*네비게이션 2번째 a*/
 .dropNavBackground2 {
     margin: 0 0 0 110px;
     width: 200px;
@@ -24,6 +26,7 @@
     z-index: 10000;
 }
 
+/*네비게이션 3번째 a*/
 .dropNavBackground3 {
     margin: 0 0 0 230px;
     width: 200px;
@@ -34,6 +37,7 @@
     z-index: 10000;
 }
 
+/*네비게이션 4번째 a*/
 .dropNavBackground4 {
     margin: 0 0 0 350px;
     width: 200px;
