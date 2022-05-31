@@ -13,6 +13,16 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+.loading{
+    width:100%;
+    height:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    background:#fff;
+}
+
 /*
 @media (min-width: 414px) and (max-width: 766px) {
     header {

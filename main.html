@@ -3,7 +3,9 @@
 <head>
     <link type="text/css" rel="stylesheet" href="./css/normalize.css">
     <link type="text/css" rel="stylesheet" href="css/main/main_style.css">
+    <link type="text/css" rel="stylesheet" href="css/main/main_nav.css">
     <link type="text/css" rel="stylesheet" href="css/main/main_banner.css">
+    <script src='./script/jquery.js'></script>
 
     <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
@@ -24,6 +26,13 @@
     <title>인천재능대학교 컴퓨터정보과</title>
 </head>
 <body>
+<script>
+    $(window).on('load', function(){
+        $(".loading").fadeOut();
+    });
+</script>
+
+<div class="loading"></div>
     <div class="top">
             <div>
                 <a href="#">대학 홈페이지</a>
@@ -41,6 +50,9 @@
             <a href="pages/sub.html">커뮤니티</a>
         </nav>
     </header>
+        <div class="dropNavBackground" id="dropdownNav">
+
+        </div>
     <section class="banner">
         <div>
             <h1>COMPUTER INFORMATION</h1>
@@ -61,7 +73,7 @@
                 </li>
             </ol>
         </div>
-        <video autoplay loop>
+        <video muted autoplay loop>
             <source src="./video/background-video.mp4" type="video/mp4">
         </video>
     </section>
@@ -209,5 +221,14 @@
             </div>
         </aside>
     </footer>
+<script>
+    $('body > header > nav > a').hover(function() {
+        $('#dropdownNav').fadeIn();
+    });
+
+    $('#dropdownNav').bind('mouseleave', function(){
+        $('#dropdownNav').fadeOut();
+    });
+</script>
 </body>
 </html>
