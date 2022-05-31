@@ -383,28 +383,8 @@ a {
         width: 100px;
     }
 
-    nav {
-        padding: 40px 5% 0 0;
-        float: right;
-    }
-
-    nav > a {
-        font-weight: bold;
-        font-size: 15pt;
-        margin: 0 0 0 40px;
-    }
-
     section {
         margin: 0 auto;
-    }
-
-    .middleNav {
-        margin: -50px auto;
-        height: 100px;
-        width: 80%;
-        background: #FFFFFF;
-        border-radius: 10px;
-        box-shadow: 3px 3px 15px #E0E0E0;
     }
 
     .intro {
@@ -548,17 +528,6 @@ a {
     header > a > img {
         margin: 28px 0 0 15%;
         width: 100px;
-    }
-
-    nav {
-        padding: 40px 15% 0 0;
-        float: right;
-    }
-
-    nav > a {
-        font-weight: bold;
-        font-size: 15pt;
-        margin: 0 0 0 40px;
     }
 
     section {

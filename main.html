@@ -53,13 +53,61 @@
         <!--드롭다운 네비게이션 영역-->
         <div class="dropNavBackgroundMain">
             <!--드롭다운 네비게이션 1-->
-            <div class="dropNavBackground1" id="dropdownNav1"></div>
+            <div class="dropNavBackground1" id="dropdownNav1">
+                <ul>
+                    <li>
+                        <a href="#">학과소개</a>
+                    </li>
+                    <li>
+                        <a href="#">교수소개</a>
+                    </li>
+                    <li>
+                        <a href="#">실습실안내</a>
+                    </li>
+                    <li>
+                        <a href="#">오시는 길</a>
+                    </li>
+                </ul>
+            </div>
             <!--드롭다운 네비게이션 2-->
-            <div class="dropNavBackground2" id="dropdownNav2"></div>
+            <div class="dropNavBackground2" id="dropdownNav2">
+                <ul>
+                    <li>
+                        <a href="#">로드맵</a>
+                    </li>
+                    <li>
+                        <a href="#">교과목 소개</a>
+                    </li>
+                </ul>
+            </div>
             <!--드롭다운 네비게이션 3-->
-            <div class="dropNavBackground3" id="dropdownNav3"></div>
+            <div class="dropNavBackground3" id="dropdownNav3">
+                <ul>
+                    <li>
+                        <a href="#">학과SNS</a>
+                    </li>
+                    <li>
+                        <a href="#">학생회 임원단</a>
+                    </li>
+                    <li>
+                        <a href="#">학과공지</a>
+                    </li>
+                    <li>
+                        <a href="#">자료실</a>
+                    </li>
+                    <li>
+                        <a href="#">갤러리</a>
+                    </li>
+                </ul>
+            </div>
             <!--드롭다운 네비게이션 4-->
-            <div class="dropNavBackground4" id="dropdownNav4"></div>
+            <div class="dropNavBackground4" id="dropdownNav4">
+                <ul>
+                    <li>
+                        <a href="#">취업 현황</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     <section class="banner">
         <div>
@@ -73,16 +121,16 @@
             <!--키 포인트 영역-->
             <ol>
                 <li>
-                    <a>장점1</a>
+                    <a><br>전문대 최초<br>송도캠퍼스</a>
                 </li>
                 <li>
-                    <a>장학금</a>
+                    <a><br>AI&Bio<br>선도대학</a>
                 </li>
                 <li>
-                    <a>장점3</a>
+                    <a><br>LINC 사업<br>연속 선정</a>
                 </li>
                 <li>
-                    <a>장점4</a>
+                    <a><br>자율개선대학<br>지속 선정</a>
                 </li>
             </ol>
         </div>
@@ -245,7 +293,7 @@
 <script>
     $('body > header > nav > a:nth-child(1)').hover(function() {
         $('#dropdownNav1').fadeIn(200);
-        $('#dropdownNav2, #dropdownNav3, #dropdownNav4').fadeOut(200);
+        $('#dropdownNav2, #dropdownNav3, #dropdownNav4' ).fadeOut(200);
     });
 
     $('body > header > nav > a:nth-child(2)').hover(function() {
