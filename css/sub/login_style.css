@@ -22,14 +22,14 @@
     }
 
     .id {
-        border: 1px solid #2F2F2F;
+        border: 1px solid #C4C4C4;
         width: 90%;
         margin: 0 0 10px 0;
         padding: 10px;
     }
 
     .pwd {
-        border: 1px solid #2F2F2F;
+        border: 1px solid #C4C4C4;
         width: 90%;
         padding: 10px;
     }
@@ -37,5 +37,20 @@
     .loginBtn {
         margin: 0 0 0 10px;
         width: 30%;
+        background: #E06E37;
+        color: white;
+        font-weight: bold;
+        border: 0;
     }
+
+    .under {
+        margin: 40px 0 0 0;
+        text-align: center;
+    }
+
+    .under > a {
+        margin: 0 20px 0 20px;
+    }
+
+
 }
