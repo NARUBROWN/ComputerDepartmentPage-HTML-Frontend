@@ -1,9 +1,33 @@
+@font-face {
+    font-family: 'NanumSquareB';
+    src:local('NanumSquareB'), url('../../resource/font/NanumSquareB.otf') format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'NanumSquareEB';
+    src:local('NanumSquareEB'), url('../../resource/font/NanumSquareEB.otf') format('opentype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'NanumSquareL';
+    src:local('NanumSquareL'), url('../../resource/font/NanumSquareL.otf') format('opentype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'NanumSquareR';
+    src:local('NanumSquareR'), url('../../resource/font/NanumSquareR.otf') format('opentype');
+    font-weight: normal;
+}
+
 html, body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: "Apple SD Gothic Neo", sans-serif;
+    font-family: "NanumSquareR", sans-serif;
     background: #F7F7F7;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -569,10 +593,27 @@ a {
         padding: 25px;
     }
 
-    .intro > aside > h4 {
+    .cardTitle {
+        margin: 10px 0 20px 0;
+        width: 100%;
+        display: flex;
+    }
+
+    .titleLeft {
+        font-family: "NanumSquareEB", sans-serif;
+        font-size: 15pt;
+        font-weight: bold;
+        padding: 0 0 0 10px;
         text-align: left;
-        font-size: 13pt;
-        margin: 10px 0 20px 10px
+        width: 50%;
+    }
+
+    .right {
+        font-size: 15pt;
+        font-weight: 400;
+        padding: 0 10px 0 0;
+        width: 100%;
+        text-align: right;
     }
 
     .underContent {
@@ -644,7 +685,6 @@ a {
 
     footer > aside > div {
         float: right;
-        width: 40%;
         color: white;
         margin: 0 0 0 20px;
     }
@@ -652,7 +692,7 @@ a {
     .left {
         float: left;
         margin: 22px 0 0 20px;
-        width: 300px;
+        width: 235px;
         color: #FFFFFF;
     }
 

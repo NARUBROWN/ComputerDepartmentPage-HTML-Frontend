@@ -21,7 +21,7 @@ video {
     height: 500px;
     text-align: center;
     z-index: 500;
-    padding: 60px 0 20px 0;
+    padding: 25px 0 20px 0;
 }
 
 .title {
@@ -29,20 +29,21 @@ video {
 }
 
 .title > h1{
+    font-family: "NanumSquareEB", sans-serif;
     font-size: 30pt;
     color: white;
     font-weight: bold;
 }
 
 .title > h3{
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    font-size: 13pt;
+    font-family: "NanumSquareL", sans-serif;
+    font-size: 20pt;
     color: white;
     font-weight: 300;
 }
 
 .title > p{
+    font-family: "NanumSquareL", sans-serif;
     font-size: 13pt;
     color: white;
 }
