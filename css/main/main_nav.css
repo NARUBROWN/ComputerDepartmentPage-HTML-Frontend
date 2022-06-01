@@ -1,24 +1,21 @@
-
-@media (min-width: 414px) and (max-width: 766px) {
-    .dropNavBackground1 {
+@media (min-width: 0px) and (max-width: 330px) {
+    ul, ol {
         display: none;
     }
 
-    /*네비게이션 2번째 a*/
-    .dropNavBackground2 {
+    nav {
+        display: none;
+    }
+}
+
+@media (min-width: 331px) and (max-width: 766px) {
+    ul, ol {
         display: none;
     }
 
-    /*네비게이션 3번째 a*/
-    .dropNavBackground3 {
+    nav {
         display: none;
     }
-
-    /*네비게이션 4번째 a*/
-    .dropNavBackground4 {
-        display: none;
-    }
-
 }
 
 @media (min-width: 767px) and (max-width: 980px) {
