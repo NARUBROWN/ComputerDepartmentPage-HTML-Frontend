@@ -2,7 +2,7 @@
 Computer Department HTML Frontend
 
 <h3>인천재능대학교 AI컴퓨터정보학과 사이트</h3>
-Java Serlvet Pages 프로젝트 조별 과제 제출용으로 제작되었습니다.
+Java Server Pages 프로젝트 조별 과제 제출용으로 제작되었습니다.
 <br>
 
 <h3>출력 결과</h3>
