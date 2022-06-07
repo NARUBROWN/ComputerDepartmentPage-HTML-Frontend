@@ -1,4 +1,3 @@
-@media (min-width: 1344px) and (max-width: 1920px) {
     .fullPage {
         height: 70%;
         display: flex;
@@ -51,6 +50,3 @@
     .under > a {
         margin: 0 20px 0 20px;
     }
-
-
-}
