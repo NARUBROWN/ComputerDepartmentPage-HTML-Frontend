@@ -29,6 +29,8 @@
         border-radius: 5px;
         box-shadow: 2px 2px 8px #8e8e8e;
         padding: 100px;
+        margin-left: auto;
+        margin-right: auto;
         width: 300px;
         height: 250px;
         background-color: #F7F7F7;
@@ -89,13 +91,21 @@
         border: none;
         border-radius: 4px;
     }
-    .name {
-        margin-left: auto;
-        margin-right: auto;
+    .login_logo {
+        height: 24px;
+        
+    }
+    .login_logo_name {
         font-size: 27px;
+        margin-left: 10px;
+
+
+    }
+    .login_top {
+        margin-bottom: 40px;
     }
     .sub {
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
 
