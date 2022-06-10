@@ -4,7 +4,7 @@
     <link type="text/css" rel="stylesheet" href="../css/normalize.css">
     <link type="text/css" rel="stylesheet" href="../css/main/main_style.css">
     <link type="text/css" rel="stylesheet" href="../css/main/main_nav.css">
-    <link type="text/css" rel="stylesheet" href="../css/sub/signUp_style.css">
+    <link type="text/css" rel="stylesheet" href="../css/sub/notice_style.css">
     <script src='../script/jquery.js'></script>
 
     <link rel="apple-touch-icon" sizes="57x57" href="../resource/favicon/apple-icon-57x57.png">
@@ -28,8 +28,8 @@
 <body>
     <div class="top">
         <div>
-            <a>대학 홈페이지</a>
-            <a>로그인</a>
+            <a href="#">대학 홈페이지</a>
+            <a href="./login.html">로그인</a>
         </div>
     </div>
     <header>
@@ -97,83 +97,125 @@
                 <div class="dropNavBackground4" id="dropdownNav4">
                     <ul>
                         <li>
-                            <a href="./notice.html">커뮤니티</a>
+                            <a href="notice.html">커뮤니티</a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <!-- 회원가입 -->
-            <div id="wrapper">
-                <div id="content">
-                    <div>
-                        <h3 class="join_title">
-                            <label for="id">아이디</label>
-                        </h3>
-                        <span class="box">
-                            <input type="text" id="id" class="int" maxlength="20">
-                        </span>
-                    </div>
 
-                    <div>
-                        <h3 class="join_title"><label for="pswd1">비밀번호</label></h3>
-                        <span class="box int_pass">
-                            <input type="text" id="pswd1" class="int" maxlength="20">
-                        </span>
-                    </div>
 
-                    <div>
-                        <h3 class="join_title"><label for="name">이름</label></h3>
-                        <span class="box int_name">
-                            <input type="text" id="name" class="int" maxlength="20">
-                        </span>
-                    </div>
-
-                    <div>
-                        <h3 class="join_title">
-                            <label for="id">이메일</label>
-                        </h3>
-                        <span class="box int_id">
-                            <input type="text" id="id" class="int" maxlength="20">
-                            <span class="step_url">
-                                <select id="email" class="select">
-                                    <option>도메인 선택</option>
-                                    <option value="naver">@naver.com</option>
-                                    <option value="daum">@daum.net</option>
-                                </select>   
-                            </span>
-                        </span>
-                    </div>
-
-                    <div>
-                        <h3 class="join_title"><label for="gender">성별</label></h3>
-                        <span class="box gender_code">
-                            <select id="gender" class="sel">
-                                <option>성별</option>
-                                <option value="M">남자</option>
-                                <option value="F">여자</option>
-                            </select>                            
-                        </span>
-                    </div>
-
-                    <div>
-                        <h3 class="join_title"><label for="auth">구분</label></h3>
-                        <span class="box gender_code">
-                            <select id="auth" class="sel">
-                                <option>구분</option>
-                                <option value="student">학생</option>
-                                <option value="staff">교직원</option>
-                            </select>                            
-                        </span>
-                    </div>
-
-                    <div class="btn_area">
-                        <button type="button" id="btnJoin">
-                            <span>가입하기</span>
-                        </button>
-                    </div>
-                </div> 
-            </div>
+    <section class="notice_table">
+        <h2>커뮤니티</h2>
+        <ul>
+            <li class="font_head">
+                <span>번호</span>
+                <span>제목</span>
+                <span>작성일</span>
+                <span>작성자</span>
+            </li>
+            <li>
+                <span>10</span>
+                <span><a href="notice_main.html">WordPress Developer Contractor</a></span>
+                <span>2022-06-09</span>
+                <span>Remote</span>
+            </li>
+            <li>
+                <span>9</span>
+                <span><a href="notice_main.html">WordPress Developer Contractor</a></span>
+                <span>2022-06-09</span>
+                <span>United States</span>
+            </li>
+            <li>
+                <span>8</span>
+                <span><a href="notice_main.html">WordPress Developer Contractor</a></span>
+                <span>2022-06-09</span>
+                <span>Philadelphia</span>
+            </li>
+            <li>
+                <span>7</span>
+                <span><a href="notice_main.html">WordPress Developer Contractor</a></span>
+                <span>2022-06-09</span>
+                <span>Canada</span>
+            </li>
+            <li>
+                <span>6</span>
+                <span><a href="notice_main.html">WordPress Developer Contractor</a></span>
+                <span>2022-06-09</span>
+                <span>United States</span>
+            </li>
+            <li>
+                <span>5</span>
+                <span><a href="notice_main.html">WordPress Developer Contractor</a></span>
+                <span>2022-06-09</span>
+                <span>Germany</span>
+            </li>
+            <li>
+                <span>4</span>
+                <span><a href="notice_main.html">WordPress Developer Contractor</a></span>
+                <span>2022-06-09</span>
+                <span>Sylhet, Bangladesh</span>
+            </li>
+            <li>
+                <span>3</span>
+                <span><a href="notice_main.html">WordPress Developer Contractor</a></span>
+                <span>2022-06-09</span>
+                <span>Canada</span>
+            </li>
+            <li>
+                <span>2</span>
+                <span><a href="notice_main.html">WordPress Developer Contractor</a></span>
+                <span>2022-06-09</span>
+                <span>Shenzhen, China</span>
+            </li>
+            <li>
+                <span>1</span>
+                <span><a href="notice_main.html">WordPress Developer Contractor</a></span>
+                <span>2022-06-09</span>
+                <span>N/A</span>
+            </li>
+        </ul>
+        <div class="numCheck">
+            <a href="#">&lt;</a>
+            <a href="#">&gt;</a>
+            <ol>
+                <li>
+                    <a href="#">1</a>
+                </li>
+                <li>
+                    <a href="#">2</a>
+                </li>
+                <li>
+                    <a href="#">3</a>
+                </li>
+                <li>
+                    <a href="#">4</a>
+                </li>
+                <li>
+                    <a href="#">5</a>
+                </li>
+                <li>
+                    <a href="#">6</a>
+                </li>
+                <li>
+                    <a href="#">7</a>
+                </li>
+                <li>
+                    <a href="#">8</a>
+                </li>
+                <li>
+                    <a href="#">9</a>
+                </li>
+                <li>
+                    <a href="#">10</a>
+                </li>
+            </ol>
         </div>
+        <div class="write_notice">
+            <a href="notice_write.html">글쓰기</a>
+        </div>
+    </section>
+
+
     <footer>
         <img src="../resource/img/footer_logo.png" alt="">
         <div class="left">
