@@ -75,17 +75,18 @@ body{
     border-radius: 5px;
     background: #fff;
 }
-.notice_regi input[type='submit']{
-        width: 100px; margin-bottom: 50px; 
-        border: 2px solid #8e8e8e; 
-        display: block; 
-        line-height: 35px;
-        background-color: #8e8e8e; color: #fff
+.write_notice{
+    width: 65px;
+    float: left;
+    background: #8e8e8e;
+    color: #fff;
+    padding: 10px 23px;
+    border: 2px solid #8e8e8e;
 }
-.notice_regi input[type='submit']:hover{
-        background-color: whitesmoke; 
-        color: #000;
-        transition: 0.5s;
+.write_notice:hover{
+    background: whitesmoke;
+    color: #000;
+    transition: 0.5s;
 }
 .move_notice{
     width: 30px;
