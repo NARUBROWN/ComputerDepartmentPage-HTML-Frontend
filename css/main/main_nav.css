@@ -129,6 +129,11 @@
         float: right;
     }
 
+    /* nav 아래에 그림자 추가해봤음 */
+    header{
+        box-shadow: 2px 3px 3px #d5d2d2;
+    }
+
     nav > a {
         font-family: "NanumSquareEB", sans-serif;
         font-weight: bold;
