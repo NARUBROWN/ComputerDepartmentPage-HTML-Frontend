@@ -75,15 +75,15 @@ body{
     border-radius: 5px;
     background: #fff;
 }
-.write_notice{
-    width: 65px;
+.write_notice input[type='submit']{
+    width: 130px;
     float: left;
     background: #8e8e8e;
     color: #fff;
     padding: 10px 23px;
     border: 2px solid #8e8e8e;
 }
-.write_notice:hover{
+.write_notice input[type='submit']:hover{
     background: whitesmoke;
     color: #000;
     transition: 0.5s;
